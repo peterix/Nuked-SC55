@@ -76,6 +76,8 @@ build/
 .idea/*
 cmake-build-*/*
 
+*.kdev4
+
 .vscode/*
 .vs/*
 CMakeSettings.json
