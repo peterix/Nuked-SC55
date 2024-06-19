@@ -1503,9 +1503,6 @@ int main(int argc, char *argv[])
 
     printf("Base path is: %s\n", argv[0]);
 
-    if(Files::dirExists(basePath + "/../share/nuked-sc55"))
-        basePath += "/../share/nuked-sc55";
-
     if (autodetect)
     {
         for (size_t i = 0; i < ROM_SET_COUNT; i++)
